@@ -1,0 +1,28 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "a movie-API made with express, node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziqingW/express-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziqingW/express-API/issues"
+  },
+  "homepage": "https://github.com/ziqingW/express-API#readme",
+  "dependencies": {
+    "apicache": "^1.2.1",
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "nunjucks": "^3.1.3"
+  }
+}

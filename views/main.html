@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>Main</title>
+{% endblock %}
+{% block contents %}
+<div>
+    <form method="get" id="search" action="/movie">
+        <input name="name" type="text">
+        <button type="submit">Search</button>
+    </form>
+</div>
+<div>
+{% if data %}
+{{ data.results[0].overview }}
+{% else %}
+<h6>No results</h6>
+{% endif %}
+</div>
+{% endblock %}
